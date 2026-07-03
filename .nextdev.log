@@ -1,0 +1,58 @@
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.57:3000
+- Environments: .env.local
+✓ Ready in 481ms
+⚠ Slow filesystem detected. The benchmark took 471ms. If D:\B - Fulfen\.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+ GET / 200 in 602ms (next.js: 192ms, application-code: 410ms)
+ GET / 200 in 141ms (next.js: 10ms, application-code: 131ms)
+ GET / 200 in 290ms (next.js: 9ms, application-code: 281ms)
+ GET / 200 in 118ms (next.js: 11ms, application-code: 107ms)
+ GET / 200 in 163ms (next.js: 9ms, application-code: 155ms)
+ GET / 200 in 104ms (next.js: 6ms, application-code: 97ms)
+ HEAD / 200 in 97ms (next.js: 6ms, application-code: 91ms)
+ GET / 200 in 188ms (next.js: 7ms, application-code: 181ms)
+✓ Compiled in 889ms
+ GET / 200 in 191ms (next.js: 122ms, application-code: 69ms)
+ GET / 200 in 603ms (next.js: 8ms, application-code: 595ms)
+ GET / 200 in 116ms (next.js: 8ms, application-code: 109ms)
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.57:3000
+- Environments: .env.local
+✓ Ready in 503ms
+
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.57:3000
+- Environments: .env.local
+✓ Ready in 649ms
+
+ GET / 200 in 1221ms (next.js: 740ms, application-code: 481ms)
+ GET / 200 in 821ms (next.js: 15ms, application-code: 807ms)
+
+thread 'tokio-runtime-worker' (25972) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 46 tasks
+
+Caused by:
+    0: Looking up typed data for 46 tasks from database failed
+    1: Unable to open static sorted file referenced from 00000072.meta
+    2: Unable to open static sorted file 00000067.sst
+    3: Failed to open SST file D:\B - Fulfen\.next\dev\cache/turbopack\v16.2.10\00000067.sst
+    4: The system cannot find the path specified. (os error 3)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'tokio-runtime-worker' (25972) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 46 tasks
+
+Caused by:
+    0: Looking up typed data for 46 tasks from database failed
+    1: Unable to open static sorted file referenced from 00000072.meta
+    2: Unable to open static sorted file 00000067.sst
+    3: Failed to open SST file D:\B - Fulfen\.next\dev\cache/turbopack\v16.2.10\00000067.sst
+    4: The system cannot find the path specified. (os error 3)
+[?25h

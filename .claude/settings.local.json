@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.fulfen.staffs.sch.uk)",
+      "Bash(taskkill /PID 11412 /F)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"next-server\")"
+    ]
+  }
+}

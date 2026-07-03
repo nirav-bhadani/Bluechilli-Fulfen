@@ -1,0 +1,1155 @@
+
+> fulfen-3d-website@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.29.247:3000
+- Environments: .env.local
+✓ Ready in 2.4s
+⚠ Slow filesystem detected. The benchmark took 470ms. If D:\B - Fulfen\.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+ POST /api/chat 200 in 5.2s
+ GET / 200 in 3.8s (next.js: 3.4s, application-code: 391ms)
+ GET / 200 in 53ms (next.js: 5ms, application-code: 49ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+ GET / 200 in 160ms (next.js: 20ms, application-code: 140ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+✓ Compiled in 1366ms
+⨯ ./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export stats doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export stats doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/Overlay.tsx:5:1
+Export stats doesn't exist in target module
+  [90m3 |[0m [36mimport[0m { [33mAnimatePresence[0m, motion } [36mfrom[0m [32m"framer-motion"[0m;
+  [90m4 |[0m [36mimport[0m { useExperienceStore } [36mfrom[0m [32m"@/store/useExperienceStore"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { copy, stats } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m [36mimport[0m { scrollBy, scrollToProgress } [36mfrom[0m [32m"@/lib/lenisInstance"[0m;
+  [90m7 |[0m [36mimport[0m [33mMagneticButton[0m [36mfrom[0m [32m"./MagneticButton"[0m;
+  [90m8 |[0m [36mimport[0m [33mCounters[0m [36mfrom[0m [32m"./Counters"[0m;
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/Overlay.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/Overlay.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/Overlay.tsx:5:1
+Export stats doesn't exist in target module
+  [90m3 |[0m [36mimport[0m { [33mAnimatePresence[0m, motion } [36mfrom[0m [32m"framer-motion"[0m;
+  [90m4 |[0m [36mimport[0m { useExperienceStore } [36mfrom[0m [32m"@/store/useExperienceStore"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { copy, stats } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m [36mimport[0m { scrollBy, scrollToProgress } [36mfrom[0m [32m"@/lib/lenisInstance"[0m;
+  [90m7 |[0m [36mimport[0m [33mMagneticButton[0m [36mfrom[0m [32m"./MagneticButton"[0m;
+  [90m8 |[0m [36mimport[0m [33mCounters[0m [36mfrom[0m [32m"./Counters"[0m;
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/Overlay.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/Overlay.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+ GET / 500 in 4.3s (next.js: 4.2s, application-code: 162ms)
+⨯ ./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export stats doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export stats doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/Overlay.tsx:5:1
+Export stats doesn't exist in target module
+  [90m3 |[0m [36mimport[0m { [33mAnimatePresence[0m, motion } [36mfrom[0m [32m"framer-motion"[0m;
+  [90m4 |[0m [36mimport[0m { useExperienceStore } [36mfrom[0m [32m"@/store/useExperienceStore"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { copy, stats } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m [36mimport[0m { scrollBy, scrollToProgress } [36mfrom[0m [32m"@/lib/lenisInstance"[0m;
+  [90m7 |[0m [36mimport[0m [33mMagneticButton[0m [36mfrom[0m [32m"./MagneticButton"[0m;
+  [90m8 |[0m [36mimport[0m [33mCounters[0m [36mfrom[0m [32m"./Counters"[0m;
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/Overlay.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/Overlay.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/Overlay.tsx:5:1
+Export stats doesn't exist in target module
+  [90m3 |[0m [36mimport[0m { [33mAnimatePresence[0m, motion } [36mfrom[0m [32m"framer-motion"[0m;
+  [90m4 |[0m [36mimport[0m { useExperienceStore } [36mfrom[0m [32m"@/store/useExperienceStore"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { copy, stats } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m [36mimport[0m { scrollBy, scrollToProgress } [36mfrom[0m [32m"@/lib/lenisInstance"[0m;
+  [90m7 |[0m [36mimport[0m [33mMagneticButton[0m [36mfrom[0m [32m"./MagneticButton"[0m;
+  [90m8 |[0m [36mimport[0m [33mCounters[0m [36mfrom[0m [32m"./Counters"[0m;
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/Overlay.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/Overlay.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+ GET / 500 in 33ms (next.js: 16ms, application-code: 17ms)
+⨯ ./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export stats doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/AccessibleContent.tsx:1:1
+Export stats doesn't exist in target module
+[31m[1m>[0m [90m 1 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 2 |[0m   school,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 3 |[0m   values,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 4 |[0m   journey,
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m   schoolLife,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m   awards,
+  [90m   |[0m [31m[1m^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m   stats,
+  [90m   |[0m [31m[1m^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m   doorLinks,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   copy,
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m   knowledgeBase,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m11 |[0m } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m
+  [90m13 |[0m [90m// Full semantic content beneath the canvas — readable by screen readers,[0m
+  [90m14 |[0m [90m// search engines, and users with reduced motion or no WebGL.[0m
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/Overlay.tsx:5:1
+Export stats doesn't exist in target module
+  [90m3 |[0m [36mimport[0m { [33mAnimatePresence[0m, motion } [36mfrom[0m [32m"framer-motion"[0m;
+  [90m4 |[0m [36mimport[0m { useExperienceStore } [36mfrom[0m [32m"@/store/useExperienceStore"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { copy, stats } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m [36mimport[0m { scrollBy, scrollToProgress } [36mfrom[0m [32m"@/lib/lenisInstance"[0m;
+  [90m7 |[0m [36mimport[0m [33mMagneticButton[0m [36mfrom[0m [32m"./MagneticButton"[0m;
+  [90m8 |[0m [36mimport[0m [33mCounters[0m [36mfrom[0m [32m"./Counters"[0m;
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/Overlay.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/Overlay.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/components/ui/Overlay.tsx:5:1
+Export stats doesn't exist in target module
+  [90m3 |[0m [36mimport[0m { [33mAnimatePresence[0m, motion } [36mfrom[0m [32m"framer-motion"[0m;
+  [90m4 |[0m [36mimport[0m { useExperienceStore } [36mfrom[0m [32m"@/store/useExperienceStore"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { copy, stats } [36mfrom[0m [32m"@/content/fulfen"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m [36mimport[0m { scrollBy, scrollToProgress } [36mfrom[0m [32m"@/lib/lenisInstance"[0m;
+  [90m7 |[0m [36mimport[0m [33mMagneticButton[0m [36mfrom[0m [32m"./MagneticButton"[0m;
+  [90m8 |[0m [36mimport[0m [33mCounters[0m [36mfrom[0m [32m"./Counters"[0m;
+
+The export stats was not found in module [project]/src/content/fulfen.ts [app-ssr] (ecmascript).
+Did you mean to import facts?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/Overlay.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/Overlay.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+ GET / 500 in 44ms (next.js: 31ms, application-code: 12ms)
+[browser] Uncaught Error: ./src/components/ui/AccessibleContent.tsx:1:1
+Export doorLinks doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   school,
+     | ^^^^^^^^^
+>  3 |   values,
+     | ^^^^^^^^^
+>  4 |   journey,
+     | ^^^^^^^^^^
+>  5 |   schoolLife,
+     | ^^^^^^^^^^^^^
+>  6 |   awards,
+     | ^^^^^^^^^
+>  7 |   stats,
+     | ^^^^^^^^
+>  8 |   doorLinks,
+     | ^^^^^^^^^^^^
+>  9 |   copy,
+     | ^^^^^^^
+> 10 |   knowledgeBase,
+     | ^^^^^^^^^^^^^^^^
+> 11 | } from "@/content/fulfen";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | // Full semantic content beneath the canvas — readable by screen readers,
+  14 | // search engines, and users with reduced motion or no WebGL.
+
+The export doorLinks was not found in module [project]/src/content/fulfen.ts [app-client] (ecmascript).
+Did you mean to import schoolLife?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/AccessibleContent.tsx [Client Component Browser]
+    ./src/components/App.tsx [Client Component Browser]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/AccessibleContent.tsx [Client Component SSR]
+    ./src/components/App.tsx [Client Component SSR]
+    ./src/components/App.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/components/ui/AccessibleContent.tsx:1:1)
+    at <unknown> (Error: (./src/components/ui/AccessibleContent.tsx:1:1)
+ GET / 200 in 1094ms (next.js: 583ms, application-code: 511ms)
+ GET / 200 in 248ms (next.js: 132ms, application-code: 117ms)
+✓ Compiled in 45ms
+ GET / 200 in 1666ms (next.js: 137ms, application-code: 1530ms)
+ GET / 200 in 60ms (next.js: 8ms, application-code: 52ms)
+ GET / 200 in 241ms (next.js: 154ms, application-code: 88ms)
+ GET / 200 in 42ms (next.js: 4ms, application-code: 38ms)
+✓ Compiled in 81ms
+ GET / 200 in 221ms (next.js: 128ms, application-code: 93ms)
+ GET / 200 in 34ms (next.js: 5ms, application-code: 30ms)
+ GET / 200 in 260ms (next.js: 3ms, application-code: 257ms)
+✓ Compiled in 452ms
+✓ Compiled in 85ms
+ GET / 200 in 145ms (next.js: 102ms, application-code: 43ms)
+✓ Compiled in 70ms
+✓ Compiled in 86ms
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en-GB" className="fraunces_9...">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+✓ Compiled in 54ms
+ GET / 200 in 315ms (next.js: 209ms, application-code: 106ms)
+✓ Compiled in 77ms
+✓ Compiled in 91ms
+✓ Compiled in 92ms
+✓ Compiled in 56ms
+ GET / 200 in 175ms (next.js: 110ms, application-code: 65ms)
+ GET / 200 in 599ms (next.js: 8ms, application-code: 591ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en-GB" className="fraunces_9...">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+ GET / 200 in 171ms (next.js: 7ms, application-code: 164ms)
+ GET / 200 in 566ms (next.js: 240ms, application-code: 325ms)
+ GET / 200 in 232ms (next.js: 153ms, application-code: 79ms)
+⨯ ReferenceError: fraunces is not defined
+    at RootLayout (src\app\layout.tsx:69:21)
+  67 |     <html
+  68 |       lang="en-GB"
+> 69 |       className={`${fraunces.variable} ${nunito.variable} ${grotesk.variable}`}
+     |                     ^
+  70 |     >
+  71 |       <body>{children}</body>
+  72 |     </html> {
+  digest: '1225682524'
+}
+✓ Compiled in 2.9s
+⨯ ReferenceError: fraunces is not defined
+    at RootLayout (src\app\layout.tsx:69:21)
+  67 |     <html
+  68 |       lang="en-GB"
+> 69 |       className={`${fraunces.variable} ${nunito.variable} ${grotesk.variable}`}
+     |                     ^
+  70 |     >
+  71 |       <body>{children}</body>
+  72 |     </html> {
+  digest: '1225682524'
+}
+ GET / 200 in 752ms (next.js: 385ms, application-code: 367ms)
+⨯ ReferenceError: fraunces is not defined
+    at RootLayout (src\app\layout.tsx:69:21)
+  67 |     <html
+  68 |       lang="en-GB"
+> 69 |       className={`${fraunces.variable} ${nunito.variable} ${grotesk.variable}`}
+     |                     ^
+  70 |     >
+  71 |       <body>{children}</body>
+  72 |     </html> {
+  digest: '1225682524'
+}
+⨯ ReferenceError: fraunces is not defined
+    at RootLayout (src\app\layout.tsx:69:21)
+  67 |     <html
+  68 |       lang="en-GB"
+> 69 |       className={`${fraunces.variable} ${nunito.variable} ${grotesk.variable}`}
+     |                     ^
+  70 |     >
+  71 |       <body>{children}</body>
+  72 |     </html> {
+  digest: '1225682524'
+}
+⨯ ReferenceError: fraunces is not defined
+    at RootLayout (src\app\layout.tsx:69:21)
+  67 |     <html
+  68 |       lang="en-GB"
+> 69 |       className={`${fraunces.variable} ${nunito.variable} ${grotesk.variable}`}
+     |                     ^
+  70 |     >
+  71 |       <body>{children}</body>
+  72 |     </html> {
+  digest: '1225682524'
+}
+ GET / 200 in 765ms (next.js: 174ms, application-code: 591ms)
+ GET / 200 in 493ms (next.js: 355ms, application-code: 138ms)
+ GET / 200 in 494ms (next.js: 407ms, application-code: 87ms)
+ GET / 500 in 500ms (next.js: 9ms, application-code: 490ms)
+✓ Compiled in 418ms
+ GET / 200 in 664ms (next.js: 173ms, application-code: 491ms)
+ GET / 200 in 348ms (next.js: 220ms, application-code: 128ms)
+ GET / 200 in 51ms (next.js: 4ms, application-code: 47ms)
+✓ Compiled in 79ms
+ GET / 200 in 157ms (next.js: 105ms, application-code: 51ms)
+ GET / 200 in 141ms (next.js: 82ms, application-code: 59ms)
+✓ Compiled in 121ms
+ GET / 200 in 327ms (next.js: 148ms, application-code: 180ms)
+ GET / 200 in 127ms (next.js: 89ms, application-code: 38ms)
+✓ Compiled in 445ms
+✓ Compiled in 63ms
+ GET / 200 in 133ms (next.js: 88ms, application-code: 45ms)
+✓ Compiled in 85ms
+ GET / 200 in 139ms (next.js: 93ms, application-code: 45ms)
+✓ Compiled in 60ms
+ GET / 200 in 182ms (next.js: 129ms, application-code: 53ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: LIFE_GRADIENTS is not defined
+    at <unknown> (src\components\site\Sections.tsx:100:38)
+    at Array.map (<anonymous>)
+    at Sections (src\components\site\Sections.tsx:96:25)
+   98 |                 className="life-card"
+   99 |                 key={s.title}
+> 100 |                 style={{ background: LIFE_GRADIENTS[i % LIFE_GRADIENTS.length] }}
+      |                                      ^
+  101 |               >
+  102 |                 <h4>{s.title}</h4>
+  103 |                 <p>{s.caption}</p> {
+  digest: '1462480676'
+}
+✓ Compiled in 66ms
+ GET / 500 in 528ms (next.js: 151ms, application-code: 377ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 61ms
+ GET / 200 in 419ms (next.js: 106ms, application-code: 313ms)
+✓ Compiled in 59ms
+ GET / 200 in 122ms (next.js: 87ms, application-code: 34ms)
+✓ Compiled in 54ms
+ GET / 200 in 124ms (next.js: 87ms, application-code: 37ms)
+✓ Compiled in 58ms
+ GET / 200 in 113ms (next.js: 78ms, application-code: 34ms)
+✓ Compiled in 52ms
+ GET / 200 in 124ms (next.js: 85ms, application-code: 39ms)
+✓ Finished filesystem cache database compaction in 12.2s
+ GET / 200 in 483ms (next.js: 7ms, application-code: 476ms)
+✓ Compiled in 134ms
+ GET / 200 in 303ms (next.js: 190ms, application-code: 113ms)
+✓ Compiled in 156ms
+✓ Compiled in 232ms
+✓ Compiled in 41ms
+ GET / 200 in 147ms (next.js: 108ms, application-code: 39ms)
+ GET / 200 in 438ms (next.js: 6ms, application-code: 431ms)
+✓ Compiled in 93ms
+✓ Compiled in 137ms
+✓ Compiled in 112ms
+ GET / 200 in 274ms (next.js: 183ms, application-code: 92ms)
+ GET / 200 in 464ms (next.js: 6ms, application-code: 457ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en-GB" className="outfit_b59...">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+✓ Compiled in 75ms
+✓ Compiled in 87ms
+ GET / 200 in 105ms (next.js: 7ms, application-code: 99ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en-GB" className="outfit_b59...">
+                          <body
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at emitPendingHydrationWarnings (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3438:13)
+    at completeWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6885:102)
+    at runWithFiberInDEV (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:131)
+    at completeUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9622:23)
+    at performUnitOfWork (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9551:58)
+    at renderRootConcurrent (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9534:71)
+    at performWorkOnRoot (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:2647:64) (file://D:/B - Fulfen/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:3439:25)
+ GET / 200 in 74ms (next.js: 4ms, application-code: 70ms)
+ GET / 200 in 89ms (next.js: 6ms, application-code: 83ms)
+ GET / 200 in 98ms (next.js: 5ms, application-code: 93ms)
+ GET / 200 in 113ms (next.js: 10ms, application-code: 103ms)
+ GET /?QWEfwefefw 200 in 95ms (next.js: 5ms, application-code: 91ms)
+ GET /?QWEfwefefw 200 in 97ms (next.js: 5ms, application-code: 92ms)
+ GET / 200 in 64ms (next.js: 4ms, application-code: 60ms)
+ GET /?QWEfwefefw 200 in 99ms (next.js: 4ms, application-code: 95ms)
+ GET / 200 in 62ms (next.js: 3ms, application-code: 59ms)
+ GET / 200 in 49ms (next.js: 3ms, application-code: 46ms)
+[?25h
