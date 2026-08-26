@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
           { key: "Pragma", value: "no-cache" },
           { key: "Expires", value: "0" },
           { key: "Surrogate-Control", value: "no-store" },
+          {
+            key: "X-Robots-Tag",
+            value: "noindex, nofollow, noarchive, nosnippet, noimageindex",
+          },
         ],
       },
     ];

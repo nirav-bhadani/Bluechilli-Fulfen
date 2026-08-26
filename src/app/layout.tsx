@@ -49,7 +49,12 @@ export const metadata: Metadata = {
     description:
       "A caring school in Burntwood where every child is known, valued and inspired.",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false, noimageindex: true },
+  },
 };
 
 export const viewport: Viewport = {
